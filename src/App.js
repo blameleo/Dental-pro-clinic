@@ -1,12 +1,12 @@
-import React from "react"
-import Navbar from "./Navbar"
+import React from "react";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
 
 function App() {
   return (
-    <div className="App bg-gray-800 text-white font-custom">
-
-
+    <div className="App bg-zinc-900 text-gray-200  px-10">
       <Navbar />
+      <Hero />
     </div>
   );
 }
